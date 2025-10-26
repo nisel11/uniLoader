@@ -102,7 +102,7 @@ config QUALCOMM
 		select EXYNOS
 		help
 		  Say Y if your device uses Samsung Exynos9810 SoC
-		  
+
 	config EXYNOS_990
 		bool "Support for Exynos 990"
 		select EXYNOS
@@ -121,12 +121,18 @@ config QUALCOMM
 		help
 		  Say Y if your device uses Mediatek MT6765 SoC
 
+	config MT6781
+		bool "Support for Mediatek MT6781"
+		select MEDIATEK
+		help
+		  Say Y if your device uses Mediatek MT6781 SoC
+
 	config MT6785
 		bool "Support for Mediatek MT6785"
 		select MEDIATEK
 		help
 		  Say Y if your device uses Mediatek MT6785 SoC
-	
+
 	config MT6833
 		bool "Support for Mediatek MT6833"
 		select MEDIATEK
@@ -156,7 +162,7 @@ config QUALCOMM
 		select QUALCOMM
 		help
 		  Say Y if your device uses this Qualcomm SoC
-	
+
 	config QEMU_SOC_VIRT
 		bool "Support for QEMU virt aarch64 SoC"
 		select QEMU
