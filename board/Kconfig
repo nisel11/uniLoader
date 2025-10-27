@@ -216,6 +216,13 @@ menu "Device Support"
 		depends on MT6785
 		help
 		  Say Y if you want to include support for Redmi Note 8 Pro
+
+	config MOTOROLA_MANAUS
+		bool "Support for Motorola Edge 40 Neo"
+		default n
+		depends on MT6879
+		help
+		  Say Y if you want to include support for Motorola Edge 40 Neo
 endmenu
 
 menu "Device Specific Addresses"

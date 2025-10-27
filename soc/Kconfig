@@ -151,6 +151,12 @@ config QUALCOMM
 		help
 		  Say Y if your device uses Mediatek MT6878 SoC
 
+	config MT6879
+		bool "Support for Mediatek MT6879"
+		select MEDIATEK
+		help
+		  Say Y if your device uses Mediatek MT6879 SoC
+
 	config QC32_8916
 		bool "Support for QUALCOMM MSM8916"
 		select QUALCOMM

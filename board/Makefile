@@ -26,3 +26,4 @@ lib-$(CONFIG_XIAOMI_BEGONIA) += xiaomi/board-begonia.o
 lib-$(CONFIG_XIAOMI_BLOSSOM) += xiaomi/board-blossom.o
 lib-$(CONFIG_XIAOMI_CAMELLIA) += xiaomi/board-camellia.o
 lib-$(CONFIG_XIAOMI_FLEUR) += xiaomi/board-fleur.o
+lib-$(CONFIG_MOTOROLA_MANAUS) += motorola/board-manaus.o
