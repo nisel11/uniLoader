@@ -337,6 +337,13 @@ menu "Device Support"
 		depends on SM8850
 		help
 		  Say Y if you want to include support for Xiaomi 17 Ultra
+
+        config XIAOMI_SEA
+                bool "Support for Xiaomi Redmi Note 12S"
+                default n
+                depends on MT6781
+                help
+                  Say Y if you want to include support for Xiaomi Redmi Note 12S
 endmenu
 
 menu "Device Specific Addresses"
